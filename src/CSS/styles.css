@@ -262,6 +262,20 @@ form button:hover {
     background-color: #e6ac00; /* Tom mais escuro ao passar o mouse */
 }
 
+.whatsapp-button {
+    display: inline-block;    
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: #1DAE5A;
+}
+
 /* Responsividade */
 
 @media (max-width: 1024px) {
