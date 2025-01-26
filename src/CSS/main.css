@@ -72,7 +72,7 @@ section {
 
 .carousel img {
     width: 600px;
-    height: 600px;
+    height: 400px;
     object-fit: cover;
     margin: 0 auto;
 }
@@ -101,3 +101,10 @@ section {
 .prev:hover, .next:hover {
     background-color: rgba(255, 215, 0, 1); /* Cor dourada sólida ao passar o mouse */
 }
+
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
