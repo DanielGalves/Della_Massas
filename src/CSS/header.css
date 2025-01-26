@@ -1,0 +1,88 @@
+header {
+    background: url('/src/imagens/hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background: rgba(0, 0, 0, 0.8); /* Fundo do menu com transparência */
+    z-index: 1000;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    height: auto;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    margin-top: 60px; /* Ajuste para evitar sobreposição */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: calc(100vh - 60px); /* Altura ajustada para o tamanho do nav */
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.button {
+    background-color: #ffd700; /* Cor dourada */
+    color: #000; /* Texto preto */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.cta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: right;
+    margin-right: 1%;
+    
+}
+.cta img{
+    margin: 10px;
+    padding-left: 10px;
+    width: 90%;
+    height: 100%;   
+}
